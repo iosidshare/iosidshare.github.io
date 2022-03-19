@@ -8,7 +8,11 @@ author: 星辰星宇1314
 mathjax: true
 ---
 
+<script src="js/clipboard.min.js"></script>
+
+new ClipboardJS('.btn');
+
 <!-- Trigger -->
-<button class="ClipboardJS" data-clipboard-text="Just because you can doesn't mean you should — clipboard.js">
+<button class="btn" data-clipboard-text="Just because you can doesn't mean you should — clipboard.js">
     Copy to clipboard
 </button>
