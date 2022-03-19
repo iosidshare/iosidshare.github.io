@@ -8,7 +8,7 @@
 # Site settings
 title: ios id 共享
 brief-intro: 专注分享外区id
-baseurl: "http://iosid.xyz" # the subpath of your site, e.g. /blog
+baseurl: "/blog " # the subpath of your site, e.g. /blog
 url: "https://iosidshare.github.io" # the base hostname & protocol for your site
 
 permalink: /:year/:month/:day/:title/
@@ -60,5 +60,3 @@ excerpt_separator: "\n\n\n\n"
 plugins: [jekyll-paginate]
 paginate: 6
 port: 4001
-
-<script src="dist/clipboard.min.js"></script>
