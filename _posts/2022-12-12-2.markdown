@@ -23,16 +23,11 @@ author: Haoyang Gao
 mathjax: true
 ---
 ```
- <div id="copyId">
-        复制的内容
-    </div>
-    <button type="button" onclick="copy()">一键复制</button>
+<button type="button" onclick="copy()">一键复制</button>
  
-    <script>
- 
-        function copy() {
-            var val = document.getElementById('copyId');
-            window.getSelection().selectAllChildren(val);
-            document.execCommand("Copy");
-        }
+<script>
+ function copy() 
+{var val = document.getElementById('copyId');
+  window.getSelection().selectAllChildren(val);
+  document.execCommand("Copy");}
     </script>
