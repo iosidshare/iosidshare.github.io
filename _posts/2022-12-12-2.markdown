@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "2"
+title:  "账号合集"
 date:   2016-03-12 11:40:18 +0800
-categories: jekyll
+categories: 
 tags: 账号
 author: 星辰星宇1314
 mathjax: true
@@ -25,7 +25,9 @@ var _hmt = _hmt || [];
 
 本网站是静态网站，有时数据需要刷新才会显示最新的。
 
-####账号用前须知:
+#### 账号用前须知:
+
+不要登陆icloud！
 
 不要开启双重认证！
 
