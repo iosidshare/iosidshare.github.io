@@ -12,3 +12,22 @@ mathjax: true
 <button class="copyBtn" >点击复制</button>
 
 
+var copyBtn = document.getElementsByClassName('copyBtn')[0];
+
+	copyBtn.onclick = function(){
+	    var copyVal = document.getElementById("copyVal");
+	        copyVal.select();
+	    
+	    try{
+	        if(document.execCommand('copy', false, null)){
+	            //success info
+	            console.log("doSomething...");
+	        } else{
+	            //fail info
+	            console.log("doSomething...");
+	        }
+	    } catch(err){
+	        //fail info
+	        console.log("doSomething...");
+	    }
+	}
