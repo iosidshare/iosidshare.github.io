@@ -13,6 +13,6 @@ mathjax: true
 new clipboard.js('.btn');
 
 <!-- Trigger -->
-<button class="btn" data-clipboard-text="Just because you can doesn't mean you should — clipboard.js">
-    Copy to clipboard
+<button class=".btn" data-clipboard-text="Just because you can doesn't mean you should — clipboard.js">
+    点击复制
 </button>
