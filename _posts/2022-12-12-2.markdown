@@ -7,9 +7,17 @@ tags: jekyll 端口 markdown Foxit RubyGems HTML CSS
 author: 星辰星宇1314
 mathjax: true
 ---
-function copyUrl() {
+<style>
+input {position: absolute; top: 0; left: 0; opacity: 0; z-index: -10;}
+</style>
+ 
+<script type="text/javascript">
+function copyTxt() {
   let url = document.querySelector('input');
   url.select(); // 选择对象
   document.execCommand('Copy'); // 执行浏览器复制命令
-  console.log("已复制")
+  alert("已复制好，可贴粘。");
 }
+</script>
+
+
