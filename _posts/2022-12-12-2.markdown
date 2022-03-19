@@ -7,27 +7,33 @@ tags: jekyll 端口 markdown Foxit RubyGems HTML CSS
 author: 星辰星宇1314
 mathjax: true
 ---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>测试</title>
+    <script type="text/javascript">
+    function jsTest1() {undefined
+        var e = document.getElementById("test1");//对象是test1
+        e.select(); //选择对象
+        document.execCommand("Copy"); //执行浏览器复制命令
+        alert("已复制好，可贴粘。");
+    }
 
-<input type="text" id="copyVal" readonly value="被复制内容" />
-<button class="copyBtn" >点击复制</button>
+    function jsTest2() {undefined
+        var e = document.getElementById("test2");//
+        e.select(); //选择对象
+        document.execCommand("Copy"); //执行浏览器复制命令
+        alert("已复制好，可贴粘。");
+    }
 
+</script>
+</head>
+<body>
+    <textarea cols="60" name="test1" rows="2" id="test1">www.ceshi.com</textarea>
+    <input type=button value="复制" οnclick="jsTest1()"><br />
 
-var copyBtn = document.getElementsByClassName('copyBtn')[0];
-
-	copyBtn.onclick = function(){
-	    var copyVal = document.getElementById("copyVal");
-	        copyVal.select();
-	    
-	    try{
-	        if(document.execCommand('copy', false, null)){
-	            //success info
-	            console.log("doSomething...");
-	        } else{
-	            //fail info
-	            console.log("doSomething...");
-	        }
-	    } catch(err){
-	        //fail info
-	        console.log("doSomething...");
-	    }
-	}
+    <input type="text" id="test2" value="www.123.com">
+    <input type=button value="复制" οnclick="jsTest2()"><br />
+</body>
+</html>
