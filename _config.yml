@@ -8,7 +8,7 @@
 # Site settings
 title: ios id 共享
 brief-intro: 专注分享外区id
-baseurl: "/blog " # the subpath of your site, e.g. /blog
+baseurl: "http://iosid.xyz " # the subpath of your site, e.g. /blog
 url: "https://iosidshare.github.io" # the base hostname & protocol for your site
 
 permalink: /:year/:month/:day/:title/
