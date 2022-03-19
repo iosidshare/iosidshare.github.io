@@ -31,21 +31,4 @@
     </div>
 </footer>
 <script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
-var clipboard = new ClipboardJS('.itemCopy');
-clipboard.on('success',
-function(e) {
-if (e.trigger.disabled == false || e.trigger.disabled == undefined) {
-e.trigger.innerHTML = "复制成功";
-e.trigger.disabled = true;
-setTimeout(function() {
-e.trigger.innerHTML = "一键复制";
-e.trigger.disabled = false;
-},
-2000);
-}
-});
-clipboard.on('error',
-function(e) {
-e.trigger.innerHTML = "复制失败";
-});
 <script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.10/dist/clipboard.min.js"></script>
