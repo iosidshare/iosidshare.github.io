@@ -8,11 +8,7 @@ author: 星辰星宇1314
 mathjax: true
 ---
 
-<script src="js/clipboard.min.js"></script>
+<input type="text" id="copyVal" readonly value="被复制内容" />
+<button class="copyBtn" >点击复制</button>
 
-new clipboard.js('.btn');
 
-<!-- Trigger -->
-<button class=".btn" data-clipboard-text="Just because you can doesn't mean you should — clipboard.js">
-    点击复制
-</button>
