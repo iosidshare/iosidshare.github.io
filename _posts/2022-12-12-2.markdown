@@ -16,17 +16,15 @@ mathjax: true
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-       
     </style>
 </head>
  
 <body>
     <html>
     <div class="box">
-        <div id="box1">1111111111111111111111111111111111</div>
+        <div id="box1">11111311</div>
         <button>复制</button>
     </div>
- 
     </html>
     <script>
         var btn = document.querySelector('button');
@@ -36,7 +34,6 @@ mathjax: true
             document.addEventListener('copy', save); // 监听浏览器copy事件
             document.execCommand('copy'); // 执行copy事件，这时监听函数会执行save函数。
             document.removeEventListener('copy', save); // 移除copy事件
-            // 保存方法
             function save(e) {
                 e.clipboardData.setData('text/plain', text); // 剪贴板内容设置
                 e.preventDefault();
