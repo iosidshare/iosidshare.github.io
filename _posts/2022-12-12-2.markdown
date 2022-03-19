@@ -10,7 +10,7 @@ mathjax: true
 
 <script src="js/clipboard.min.js"></script>
 
-new ClipboardJS('.btn');
+new clipboard.js('.btn');
 
 <!-- Trigger -->
 <button class="btn" data-clipboard-text="Just because you can doesn't mean you should — clipboard.js">
