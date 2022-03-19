@@ -7,17 +7,42 @@ tags: jekyll 端口 markdown Foxit RubyGems HTML CSS
 author: 星辰星宇1314
 mathjax: true
 ---
-<style>
-input {position: absolute; top: 0; left: 0; opacity: 0; z-index: -10;}
-</style>
+<!DOCTYPE html>
+<html lang="en">
  
-<script type="text/javascript">
-function copyTxt() {
-  let url = document.querySelector('input');
-  url.select(); // 选择对象
-  document.execCommand('Copy'); // 执行浏览器复制命令
-  alert("已复制好，可贴粘。");
-}
-</script>
-
-
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       
+    </style>
+</head>
+ 
+<body>
+    <html>
+    <div class="box">
+        <div id="box1">1111111111111111111111111111111111</div>
+        <button>复制</button>
+    </div>
+ 
+    </html>
+    <script>
+        var btn = document.querySelector('button');
+        var box = document.querySelector('#box1')
+        btn.onclick = function () {
+            var text = box.innerHTML;
+            document.addEventListener('copy', save); // 监听浏览器copy事件
+            document.execCommand('copy'); // 执行copy事件，这时监听函数会执行save函数。
+            document.removeEventListener('copy', save); // 移除copy事件
+            // 保存方法
+            function save(e) {
+                e.clipboardData.setData('text/plain', text); // 剪贴板内容设置
+                e.preventDefault();
+            }
+        }
+    </script>
+</body>
+ 
+</html>
