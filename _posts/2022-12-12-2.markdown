@@ -7,7 +7,15 @@ tags: jekyll 端口 markdown Foxit RubyGems HTML CSS
 author: 星辰星宇1314
 mathjax: true
 ---
-<!-- Trigger -->
-<button class="btn" data-clipboard-text="Just because you can doesn't mean you should — clipboard.js">
-    Copy to clipboard
-</button>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?797368f28f8e7f4f1db4abbaff73db29";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+
+账号:
+密码:
