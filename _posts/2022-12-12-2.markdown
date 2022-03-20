@@ -18,7 +18,7 @@ qq:1903959708
 #### <font color='red'>不要登录icloud！</font>
 #### <font color='red'>不要开启双重认证，一定不要。可以按照下图做。</font>  
 
-[avatar](http://iosidshare.github.io/p/IMG_0149.PNG)
+![avatar](http://iosidshare.github.io/p/IMG_0149.PNG)
 
 #### 美国:  
 ```
