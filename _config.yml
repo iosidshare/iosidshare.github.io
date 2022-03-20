@@ -17,7 +17,7 @@ permalink: /:year/:month/:day/:title/
 twitter_username: #
 facebook_username: #
 github_username:  
-email: 
+email: 1903959708@qq.com
 weibo_username: 
 zhihu_username: 
 linkedIn_username: 
@@ -28,15 +28,15 @@ description_footer: ios id share
 # comments
 # two ways to comment, only choose one, and use your own short name
 # 两种评论插件，选一个就好了，使用自己的 short_name
-duoshuo_shortname: #hygblog
-disqus_shortname: #gaohaoyang
+duoshuo_shortname: yuchen
+disqus_shortname: #gaohaoyan
 
 # statistic analysis 统计代码
 # 百度统计 id，将统计代码替换为自己的百度统计id，即
 # hm.src = "//hm.baidu.com/hm.js?xxxxxxxxxxxx";
 # xxxxx字符串
-baidu_tongji_id:797368f28f8e7f4f1db4abbaff73db29
-#google_analytics_id:  # google 分析追踪id
+baidu_tongji_id: 797368f28f8e7f4f1db4abbaff73db29
+google_analytics_id:  # google 分析追踪id
 
 # Build settings
 markdown: kramdown
