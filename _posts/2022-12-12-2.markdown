@@ -14,9 +14,10 @@ mathjax: true
 qq:1903959708  
 本网站是静态网站，有时刷新网页后才会显示最新内容。  
 
-#### 账号用前须知:  
-不要登陆icloud！  
-不要开启双重认证！  
+### 账号用前须知:  
+#### 不要登陆icloud！  
+#### 不要开启双重认证！  
+#### 一定别开启，遇到要开启的情况按照下图做。
 
 ![avatar](http://iosidshare.github.io/p/IMG_0149.PNG)
 
@@ -25,13 +26,11 @@ qq:1903959708
 账号: iosidsharemg@163.com
 密码: Wsxedc123456
 ```
-
 #### 中国:
 ```
 账号: vci8630@v22.me
 密码: Wsxedc123456
 ```
-
 #### 日本:
 ```
 账号: iosidsharerb@outlook.com
@@ -47,3 +46,10 @@ qq:1903959708
 账号: hanguo1225@outlook.com
 密码: Edcrfv123456
 ```
+#### 巴西:
+```
+账号: qushunyu2@outlook.com
+密码: Rfvtgb123456
+```
+
+
