@@ -2,7 +2,7 @@
 layout: post
 title:  "账号合集"
 date:   2022-03-21 11:40:18 +0800
-categories: 
+categories: id
 tags: 账号
 author: 星辰星宇1314
 mathjax: true
