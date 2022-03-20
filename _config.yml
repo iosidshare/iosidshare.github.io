@@ -36,7 +36,7 @@ disqus_shortname: #gaohaoyan
 # hm.src = "//hm.baidu.com/hm.js?xxxxxxxxxxxx";
 # xxxxx字符串
 baidu_tongji_id: 797368f28f8e7f4f1db4abbaff73db29
-google_analytics_id: 3355326927 # google 分析追踪id
+google_analytics_id: 3355464662 # google 分析追踪id
 
 # Build settings
 markdown: kramdown
@@ -57,5 +57,5 @@ excerpt_separator: "\n\n\n\n"
 
 # paginate
 plugins: [jekyll-paginate]
-paginate: 6
+paginate: 5
 port: 4001
