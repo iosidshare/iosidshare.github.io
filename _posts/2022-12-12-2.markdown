@@ -14,12 +14,11 @@ mathjax: true
 qq:1903959708  
 本网站是静态网站，有时刷新网页后才会显示最新内容。  
 
-### 账号用前须知:  
-#### 不要登陆icloud！  
-#### 不要开启双重认证！  
-#### 一定别开启，遇到要开启的情况按照下图做。
+### <font color='red'>注意事项:</font>
+#### <font color='red'>不要登录icloud！</font>
+#### <font color='red'>不要开启双重认证，一定不要。可以按照下图做。</font>  
 
-![avatar](http://iosidshare.github.io/p/IMG_0149.PNG)
+[avatar](http://iosidshare.github.io/p/IMG_0149.PNG)
 
 #### 美国:  
 ```
