@@ -20,6 +20,8 @@ qq:1903959708
 
 ![avatar](http://iosidshare.github.io/p/IMG_0149.PNG)
 
+密码输入两次还不对可以刷新网页看看密码更没更改。
+
 #### 美国:  
 ```
 账号: iosidsharemg@163.com
