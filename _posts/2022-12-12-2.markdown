@@ -16,16 +16,13 @@ qq:1903959708
 
 ### <font color='red'>注意事项:</font>
 #### <font color='red'>不要登录icloud！</font>
-#### <font color='red'>不要开启双重认证，一定不要。可以按照下图做。</font>  
-
-![avatar](http://iosidshare.github.io/p/IMG_0149.PNG)
-
+#### <font color='red'>不要开启双重认证，一定不要。</font>  
 密码输入两次还不对可以刷新网页看看密码更没更改。
 
 #### 美国:  
 ```
 账号: iosidsharemg@163.com
-密码: Edcrfv123456
+密码: Tgbyhn123456
 ```
 #### 中国:
 ```
