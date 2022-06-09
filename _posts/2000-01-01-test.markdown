@@ -8,6 +8,4 @@ author: 星辰星宇1314
 mathjax: true
 ---
 
-
-## ？
-@/agmgmwmw.mgtj.tmgwgmwg
+<video src="视频地址" width="480px" height="320px" controls="controls" preload="auto"></video>
